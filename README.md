@@ -1,75 +1,223 @@
-﻿# 🎓 Certificate Generating and Verification Website
+# 🎓 Certificate Generating & Verification Website for Training & Internships
 
-A web-based application that allows training institutions to generate and verify digital certificates for trainers and trainees. This platform ensures secure issuance and validation of training certificates with ease.
+A **full-stack certificate management platform** built for **training institutes** to **manage courses, tasks, student submissions, and generate verifiable digital certificates**.
 
-## 🛠️ Features
+This system ensures **authenticity, transparency, and easy verification** of certificates using a **unique Certificate ID**.
 
-- ✅ Certificate generation for trainers and trainees
-- 🔍 Unique verification system with certificate ID
-- 👤 Admin panel to manage courses, trainees, and certificates
-- 📤 Downloadable certificates in PDF format
-- 🔐 Secure and tamper-proof certificate validation
-- 🌐 Responsive UI for desktop and mobile users
+🌐 **Live Project**: https://cgtt-client.onrender.com  
+🔐 Protected with **Cloudflare Turnstile (Human Verification)**
 
-## 📷 Screenshots
-![image](https://github.com/user-attachments/assets/315fa038-40fe-4565-82c0-365879b9b8d2)
+---
 
-## 🚀 Tech Stack
+## 🏆 Project Highlights
 
-- **Frontend:** React.js / HTML / CSS / Tailwind
-- **Backend:** Node.js / Express.js
-- **Database:**  MySQL
-- **Other Tools:** jsPDF, JWT for security
+- 🔐 Secure authentication with Cloudflare verification  
+- 📜 Auto-generated certificates after course completion  
+- 🔎 Public certificate verification using Certificate ID  
+- 🧑‍🎓 Student dashboard for courses, tasks & profile management  
+- 🛠️ Admin dashboard for users, courses, enrollments & submissions  
+- 📥 Download certificates as **PDF**  
+- ⏱️ Task submission tracking with **timestamps**  
+- 🔄 Redux-powered responsive sidebar navigation  
 
-## 🔧 Installation & Setup
+---
 
-#Frontend
+## 🧠 Tech Stack
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/PavishK/CGTT_Project.git
-   cd CGTT_Project
-   cd client-side
-   
-2. Install dependencies::
-   ```bash
-   npm install
+### Frontend
+- **React.js (Vite)**
+- **Redux** (Sidebar & state management)
+- **HTML2Canvas** (Certificate PDF generation)
+- **Cloudflare Turnstile**
+- **CSS / Responsive UI**
 
-3. Set up environment variables:
-   Create a .env file and include:
-   ```bash
-   VITE_SERVER_API="http://localhost:8080"
-   VITE_SITE_KEY="" //Clloudflare site key
+### Backend
+- **Node.js**
+- **Express.js**
+- **JWT Authentication**
+- **MySQL (TiDB Cloud)**
+- **Nodemailer (Email support)**
 
-#Backend
+### Deployment & Security
+- **Render**
+- **Cloudflare Tunnel**
+- **Environment Variable Protection**
 
-1. Clone the repository:
-   ```bash
-   cd server-side
-   
-2. Install dependencies::
-   ```bash
-   npm install
+---
 
-3. Set up environment variables:
-   Create a .env file and include:
-   ```bash
-   HOST=""
-   USER=""
-   PASSWORD=""
-   DATABASE=""
-   DBPORT=
-   SSLSTATE=
-   PORT=
-   JWT_SECRET=""
-   COOKIE_SECRET=""
-   CLOUDFLARE_SECRET_KEY=""
-   CLIENT_URL=""
-   EMAIL_USER=""
-   EMAIL_PASS=""
+## 👨‍🎓 Student Features
 
-✍️ Author
-   Name: Pavish K
-   GitHub: https://github.com/PavishK
-   Portfolio: https://personal-portfolio-rdxc.onrender.com
+### 🏠 Home Page
+![Home](https://github.com/user-attachments/assets/25212696-c2c2-46f3-b8a7-225330146294)
 
+### 📚 Courses Page
+![Courses](https://github.com/user-attachments/assets/cfae4d1d-3dbf-42f0-849a-78915eca027f)
+
+### 🧾 Certificate Verification (Using Certificate ID)
+![Verify](https://github.com/user-attachments/assets/30447195-dfb3-41db-9f1e-9ad8f39a641f)
+
+![Verifying](https://github.com/user-attachments/assets/5c8507ef-02e2-4914-a970-ba60379220ea)
+
+### ℹ️ About Page
+![About](https://github.com/user-attachments/assets/39f76cce-1485-4449-8ce1-23c08afce247)
+
+### 📤 Task Submissions with Status & Timestamp
+![Tasks](https://github.com/user-attachments/assets/fd81002c-4c7b-4cc7-898d-f87b3c38fee4)
+
+### 👤 Profile Management
+- Change full name  
+- Update password  
+- Delete account  
+
+![Profile](https://github.com/user-attachments/assets/640ca6be-9563-4201-bd71-80c48ba33f6b)
+
+---
+
+## 🔐 Authentication (Cloudflare Protected)
+
+### 🔑 Login
+![Login](https://github.com/user-attachments/assets/13429a9a-01eb-4d56-8c9c-28b0880fc58d)
+
+### 📝 Register
+![Register](https://github.com/user-attachments/assets/f1c5953b-280b-449b-9313-7f53b175d68f)
+
+---
+
+## 📘 Course & Certificate Flow
+
+### 📌 Course Tasks & Certificate Unlock
+![Course Tasks](https://github.com/user-attachments/assets/386f4aca-31fd-44f3-9c69-fe5972982a7d)
+
+### 📎 Task Submission (Google Drive PDF Link)
+- Submit
+- Unsubmit
+- Track Status  
+
+![Submit Task](https://github.com/user-attachments/assets/467d7fd8-b97f-4884-91d7-9f01557f5a8e)
+
+### 📜 Certificate Download & Verification
+![Verify Name](https://github.com/user-attachments/assets/a98ded69-eb84-489a-9a31-e9ade465781d)
+
+![Download Certificate](https://github.com/user-attachments/assets/dc7993e7-7d04-4eed-8147-738871e364bd)
+
+---
+
+## 🛠️ Admin Features
+
+### 📊 Admin Dashboard
+![Dashboard](https://github.com/user-attachments/assets/7b561a12-78ec-4dfb-91bd-7b3529deb13a)
+
+### 👥 Manage Users
+![Users](https://github.com/user-attachments/assets/5f281e3b-e9a8-4481-8566-1bd3fe25c82b)
+
+### 🎓 Manage Enrollments
+- Grant certificate access to students  
+
+![Enrollments](https://github.com/user-attachments/assets/277515dc-dd28-4272-8c45-8473594ea3ca)
+
+### 📚 Manage Courses
+![Courses Admin](https://github.com/user-attachments/assets/c1983711-aae0-4bb0-829e-92d1fab8744d)
+
+### 📥 Manage Submissions
+![Submissions](https://github.com/user-attachments/assets/f6d0e33a-ac7c-4771-a625-48996f10460c)
+
+---
+
+## 📂 Project Structure
+
+```
+
+CGTT/
+├── client-side/
+│   ├── src/
+│   ├── .env
+│   └── package.json
+│
+├── server-side/
+│   ├── routes/
+│   ├── controllers/
+│   ├── database/
+│   ├── .env
+│   └── server.js
+
+````
+
+---
+
+## 🔐 Environment Variables
+
+### 📁 Frontend (`client-side/.env`)
+```env
+VITE_SERVER_API="YOUR_BACKEND_URL"
+VITE_SITE_KEY="YOUR_CLOUDFLARE_SITE_KEY"
+VITE_SECRET_KEY="YOUR_SECRET_KEY"
+````
+
+### 📁 Backend (`server-side/.env`)
+
+```env
+HOST="YOUR_DB_HOST"
+USER="YOUR_DB_USER"
+PASSWORD="YOUR_DB_PASSWORD"
+DATABASE="YOUR_DB_NAME"
+DBPORT=4000
+SSLSTATE=true
+
+PORT=8080
+JWT_SECRET="YOUR_JWT_SECRET"
+COOKIE_SECRET="YOUR_COOKIE_SECRET"
+
+CLOUDFLARE_SECRET_KEY="YOUR_CLOUDFLARE_SECRET"
+CLIENT_URL="YOUR_FRONTEND_URL"
+
+EMAIL_USER="YOUR_EMAIL"
+EMAIL_PASS="YOUR_EMAIL_APP_PASSWORD"
+```
+
+> ⚠️ **Never push `.env` files to GitHub**
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+# Backend
+cd server-side
+npm install
+npm run dev
+
+# Frontend
+cd client-side
+npm install
+npm run dev
+```
+
+---
+
+## 📌 Key Concepts Used
+
+* Certificate authenticity & verification
+* Secure token-based authentication
+* Role-based access (Admin / Student)
+* Cloudflare bot protection
+* PDF generation using HTML2Canvas
+* Real-time task tracking with timestamps
+
+---
+
+## 🎯 Conclusion
+
+This project provides a **complete digital solution for training institutes** to manage **courses, student performance, and certificate generation** with **public verification**.
+
+It is **secure, scalable, and production-ready**, making it ideal for **real-world deployment**.
+
+---
+
+## 👨‍💻 Developed By
+
+**Pavish K**
+💻 MERN + MySQL Stack
+
+⭐ *If you like this project, don’t forget to star the repository!* ⭐
+Just tell me 👍
+```
