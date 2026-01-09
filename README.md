@@ -105,18 +105,19 @@ This system ensures **authenticity, transparency, and easy verification** of cer
 ## 🛠️ Admin Features
 
 ### 📊 Admin Dashboard
-![Dashboard](https://github.com/user-attachments/assets/7b561a12-78ec-4dfb-91bd-7b3529deb13a)
+![Dashboard](https://github.com/user-attachments/assets/5f281e3b-e9a8-4481-8566-1bd3fe25c82b)
 
 ### 👥 Manage Users
-![Users](https://github.com/user-attachments/assets/5f281e3b-e9a8-4481-8566-1bd3fe25c82b)
+![Users](https://github.com/user-attachments/assets/277515dc-dd28-4272-8c45-8473594ea3ca)
 
 ### 🎓 Manage Enrollments
 - Grant certificate access to students  
 
-![Enrollments](https://github.com/user-attachments/assets/277515dc-dd28-4272-8c45-8473594ea3ca)
+![Enrollments](https://github.com/user-attachments/assets/7b561a12-78ec-4dfb-91bd-7b3529deb13a)
 
 ### 📚 Manage Courses
-![Courses Admin](https://github.com/user-attachments/assets/c1983711-aae0-4bb0-829e-92d1fab8744d)
+
+![Courses Admin](https://github.com/user-attachments/assets/b3ce4527-20a8-46dd-8703-474fc4a2c4e7)
 
 ### 📥 Manage Submissions
 ![Submissions](https://github.com/user-attachments/assets/f6d0e33a-ac7c-4771-a625-48996f10460c)
@@ -220,4 +221,3 @@ It is **secure, scalable, and production-ready**, making it ideal for **real-wor
 
 ⭐ *If you like this project, don’t forget to star the repository!* ⭐
 Just tell me 👍
-```
