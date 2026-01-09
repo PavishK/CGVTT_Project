@@ -48,21 +48,21 @@ This system ensures **authenticity, transparency, and easy verification** of cer
 ## 👨‍🎓 Student Features
 
 ### 🏠 Home Page
-![Home](https://github.com/user-attachments/assets/25212696-c2c2-46f3-b8a7-225330146294)
+![Home](https://github.com/user-attachments/assets/cfae4d1d-3dbf-42f0-849a-78915eca027f)
 
 ### 📚 Courses Page
-![Courses](https://github.com/user-attachments/assets/cfae4d1d-3dbf-42f0-849a-78915eca027f)
+![Courses](https://github.com/user-attachments/assets/30447195-dfb3-41db-9f1e-9ad8f39a641f)
 
 ### 🧾 Certificate Verification (Using Certificate ID)
-![Verify](https://github.com/user-attachments/assets/30447195-dfb3-41db-9f1e-9ad8f39a641f)
-
 ![Verifying](https://github.com/user-attachments/assets/5c8507ef-02e2-4914-a970-ba60379220ea)
 
+![Certificate ID](https://github.com/user-attachments/assets/39f76cce-1485-4449-8ce1-23c08afce247)
+
 ### ℹ️ About Page
-![About](https://github.com/user-attachments/assets/39f76cce-1485-4449-8ce1-23c08afce247)
+![About](https://github.com/user-attachments/assets/fd81002c-4c7b-4cc7-898d-f87b3c38fee4)
 
 ### 📤 Task Submissions with Status & Timestamp
-![Tasks](https://github.com/user-attachments/assets/fd81002c-4c7b-4cc7-898d-f87b3c38fee4)
+![About](https://github.com/user-attachments/assets/7589f3ad-55fd-4785-8106-482d0cb888af)
 
 ### 👤 Profile Management
 - Change full name  
@@ -221,3 +221,4 @@ It is **secure, scalable, and production-ready**, making it ideal for **real-wor
 
 ⭐ *If you like this project, don’t forget to star the repository!* ⭐
 Just tell me 👍
+
