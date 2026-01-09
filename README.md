@@ -220,5 +220,3 @@ It is **secure, scalable, and production-ready**, making it ideal for **real-wor
 💻 MERN + MySQL Stack
 
 ⭐ *If you like this project, don’t forget to star the repository!* ⭐
-Just tell me 👍
-
